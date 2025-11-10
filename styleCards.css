@@ -1,13 +1,12 @@
 body {
     background-color: #111;
-    margin: 0; /* <-- ALTERADO DE '0 auto' */
+    margin: 0; 
 }
 
-/* ADICIONE ESTA NOVA REGRA PARA O MAIN */
 main {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Garante que o 'main' ocupe no mínimo a altura total da tela */
+    min-height: 100vh; 
 }
 
 #menu {

@@ -31,22 +31,18 @@ img {
     height: 384px;
 }
 
-/* REGRA 'body' ALTERADA */
 body {
     background-color: #111;
     margin: 0; 
-    /* <<< LINHAS ADICIONADAS ABAIXO >>> */
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Faz o body ocupar a altura da tela */
+    min-height: 100vh; 
 }
 
-/* <<< REGRA 'main' ADICIONADA >>> */
-/* Esta regra é nova e necessária por causa do seu HTML */
 main {
     display: flex;
     flex-direction: column;
-    flex-grow: 1; /* Faz o 'main' crescer para preencher o 'body' */
+    flex-grow: 1; 
 }
 
 
@@ -93,16 +89,14 @@ h4 {
     opacity: 0.8;
 }
 
-/* REGRA 'footer' ALTERADA */
 footer {
     background: #111;
     color: white;
     text-align: center;
     width: 15%;
-    margin: 0 auto; /* Mantém centralizado horizontalmente */
+    margin: 0 auto;
 
-    /* <<< LINHA ADICIONADA ABAIXO >>> */
-    margin-top: auto; /* Empurra o footer para o final do 'main' */
+    margin-top: auto;
 }
 
 #recomendados {

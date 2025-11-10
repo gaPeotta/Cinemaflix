@@ -5,44 +5,60 @@
     <link rel="stylesheet" href="bibliogra.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bibliografia</title>
+
+    <style>
+        .curiosidade-img {
+            width: 200px;  /* Define uma largura fixa */
+            height: 120px; /* Define uma altura fixa */
+            object-fit: cover; /* Faz a imagem cobrir o espaço sem distorcer */
+            border-radius: 8px; /* Arredonda as bordas */
+            margin-top: 10px; /* Dá um espaço entre o texto e a imagem */
+            display: block; /* Garante que a imagem se comporte como um bloco */
+        }
+    </style>
 </head>
-    
+
+<body>
 
     <div id="menu">
-                <a href="index.html"><img style="height: 100px; width: 200px; margin-right: 680px;" src="logo.png" alt=""></a>
-
-
-                <h4><a style="margin-right: 40px;" href="https://www.imdb.com/pt/" target="_blank">IMDB</a></h4>
-
-                
-                <h4><a href="index.html">Voltar</a></h4>
-
-
-                <input type="text" name="X1" placeholder="Digite seu usuario:">
-
-                <input type="password" name="X1" placeholder= "Digite sua senha:">
+        <a href="index.html"><img style="height: 100px; width: 200px; margin-right: 680px;" src="logo.png" alt=""></a>
+        <h4><a style="margin-right: 40px;" href="https://www.imdb.com/pt/" target="_blank">IMDB</a></h4>
+        <h4><a href="index.html">Voltar</a></h4>
+        <input type="text" name="X1" placeholder="Digite seu usuario:">
+        <input type="password" name="X1" placeholder= "Digite sua senha:">
     </div>
 
     <main>
         <div id="eu">
             <h1>Sobre mim</h1>
-
-            <img style="width: 350px; border-radius: 10px;" src="WhatsApp Image 2025-05-12 at 10.25.42 AM.jpeg" alt="Foto do Gabriel Peotta">            
-
-            <li>Idade: 16 anos (08/08/2009)</li>
-            <li>Onde eu moro: São Paulo - SP</li>
+            <img style="width: 350px; border-radius: 10px;" src="WhatsApp Image 2025-05-12 at 10.25.42 AM.jpeg" alt="Foto do Gabriel Peotta">
             
-            </div>
+            <p><strong>Idade:</strong> 16 anos (08/08/2009)</p>
+            <p><strong>Onde eu moro:</strong> São Paulo - SP</p>
+        </div>
 
         <hr>
 
         <div id="cur">
             <h1>Curiosidades</h1>
-
             <ol type="I">
-                <li>Torço pro Palmeiras</li>
-                <li>Meu professor favorito é o carlos rei do html</li>
-                <li>Sei tocar violino</li>        
+                <li>
+                    Torço pro Palmeiras
+                    <br>
+                    <img class="curiosidade-img" src="palmeiras.png" alt="Símbolo do Palmeiras">
+                </li>
+                
+                <li>
+                    Minha matéria favorita é bd
+                    <br>
+                    <img class="curiosidade-img" src="personstorageprod_personcontainer_NISFLEI CARVALHO GALONI (1).JPEG" alt="Professor Carlos">
+                </li>
+                
+                <li>
+                    Sei tocar violino
+                    <br>
+                    <img class="curiosidade-img" src="violino.png" alt="Tocando violino">
+                </li>
             </ol>
         </div>
 
@@ -50,19 +66,30 @@
 
         <div id="lugar">
             <h1>Lugares que eu ja fui</h1>
-
             <ol type="I">
-                <li>Minas gerais</li>
-                <li>Goias</li>
-                <li>Tocantins</li>
-                <li>Barueri</li>
+                <li>Minas gerais
+                    <br>
+                    <img src="minas.png" alt="">
+                </li>
+                <li>Goias
+                    <br>
+                    <img src="goias.png" alt="">
+                </li>
+                <li>Tocantins
+                    <br>
+                    <img src="tocantins.png" alt="">
+                </li>
+            
+                <li>Barueri
+                    <br>
+                    <img src="barueri.png" alt="">
+                </li>
             </ol>
         </div>
-
     </main> 
 
     <footer>
-            &copy; Todos os direitos reservados &reg;        
+        &copy; Todos os direitos reservados &reg;
     </footer>
 
 </body>
